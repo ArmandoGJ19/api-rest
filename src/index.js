@@ -10,4 +10,4 @@ mongoose.connect(process.env.MONGODB_URI).then(() => {
 }).catch((error) => {
     console.error(error);
 })
-console.log("Listening on port ",3000);
+// console.log("Listening on port ",3000);
