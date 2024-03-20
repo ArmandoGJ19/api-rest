@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import {verifyToken} from "./middlewares/authJwt.js";
 export {verifyToken};
 dotenv.config();
-app.listen(3000);
+// app.listen(3000);
 mongoose.connect(process.env.MONGODB_URI).then(() => {
     console.log("Connected to MongoDB Atlas");
 }).catch((error) => {
